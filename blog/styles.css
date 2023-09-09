@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* .posts {
+    display: flex;
+} */
+
+.posts_header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    background-color: #653f3f;
+    justify-content: end;
+    align-items: center;
+}
+
+.header_text {
+    color: aliceblue;
+    margin: 5px 20px;
+    font-size: 2rem;
+}
+
+.posts_place {
+    width: 100vw;
+    height: 80vh;
+    background-color: #ad9191;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.post {
+    margin: 0px 0px 30px 100px;
+    width: 700px;
+    height: 200px;
+    background-color: bisque;   
+}
+
+.post_text {
+    padding: 10px;
+}
+
+/* .post-button {
+    
+} */
