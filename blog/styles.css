@@ -7,11 +7,7 @@ a {
     text-decoration: none;
 }
 
-/* .posts {
-    display: flex;
-} */
-
-.posts_header {
+.header {
     width: 100vw;
     height: 10vh;
     display: flex;
@@ -29,23 +25,39 @@ a {
 .posts_place {
     width: 100vw;
     height: 80vh;
-    background-color: #ad9191;
-    justify-content: center;
-    align-items: center;
+    background-color: #ad9191;  
     padding-top: 30px;
 }
 
 .post {
-    margin: 0px 0px 30px 100px;
-    width: 700px;
+    position: relative;
+    margin: 0px 200px;
+    width: 1000px;
     height: 200px;
     background-color: bisque;   
+}
+
+.post_header {
+    position: relative;
+    left: 3%;
+    top: 2%;
 }
 
 .post_text {
     padding: 10px;
 }
 
-/* .post-button {
-    
-} */
+.post_author {
+    position: absolute;
+    top: 75%;
+    left: 3%;
+}
+
+.post_button {
+    position: absolute;
+    top: 75%;
+    left: 80%;
+    background-color: #c28888;
+    width: 100px;
+    height: 30px;
+}
