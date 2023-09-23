@@ -45,7 +45,7 @@ function numDifference(array){
         }
     }
     let answer = maxFirstCouple - minSecondCouple
-    console.log(answer)
+    return answer
 }
 
 // let a = [1, 3, 10, 5]
@@ -78,7 +78,7 @@ function findUnique(array){
         }
         count = 0
     }
-    console.log(answer)
+    return answer
 }
 
 // a = [1, 2, 2, 3, 3, 4, 5, 4, 5, 6, 7, 8, 8, 9, 7]
@@ -106,15 +106,54 @@ function twoArrays(fArray, sArray){
     }
     if(numberCount===end){
         if(pass<end){
-            console.log("false")
+            return "false"
         }else{
-            console.log("true")
+            return "true"
         }
     }else{
-        console.log("false")
+        return "false"
     }
 }
 
 // a = [1, 2, 3, 4, 5]
 // b = [5, 4, 3, 2, 1]
 // twoArrays(a, b)
+
+//Задание 8
+
+function fillArray(size, data){
+    let array = []
+    for(let i = 0; i<size; ++i){
+        array.push(data)
+    }
+    return array
+}
+
+// fillArray(3, 'a')
+
+//Задание 9
+
+function erase(array){
+    let answer = []
+    for(let i = 0; i<array.length; ++i){
+        if(typeof(array[i])==="number"){
+            if(array[i]!=0){
+                answer.push(array[i])
+            }
+        }
+    }
+    return answer
+}
+
+// const data = [0, 1, false, 2, undefined, '', 3, null];
+// console.log(erase(data))
+
+//Задание 11
+
+function concatenate(array, separator){
+
+    let answer = array.join(' ')
+    return answer
+}
+
+console.log(concatenate(['Я','учусь','на','лучшей','кафедре'], ' '))
