@@ -31,7 +31,7 @@ a {
 
 .post {
     position: relative;
-    margin: 0px 200px;
+    margin: 100px 200px;
     width: 1000px;
     height: 200px;
     background-color: bisque;   
@@ -48,14 +48,14 @@ a {
 }
 
 .post_author {
-    position: absolute;
-    top: 75%;
+    position: relative;
+    top: 30%;
     left: 3%;
 }
 
 .post_button {
-    position: absolute;
-    top: 75%;
+    position: relative;
+    top: 20%;
     left: 80%;
     background-color: #c28888;
     width: 100px;
